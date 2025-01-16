@@ -7,9 +7,8 @@
      <!--font awesome cdn link-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
      <!--custom css file link-->
-     <link rel="stylesheet" href="CSS/INDEX.css">
+     <link rel="stylesheet" href="CSS/index.css">
 </head>
-<body>
    
     <!--header sections starts-->
 
@@ -25,24 +24,131 @@
    <a href="#Productos">Productos</a>
    <a href="#Reseñas">Reseñas</a>
    <a href="#Contactos">Contactos</a>
+   <li><button class="btnLogin-popup">Login</button></li> 
+
 </nav>
 <div class="icons">
     <div class="fas fa-search" id="search-btn"></div>
     <div class="fas fa-shopping-cart" id="cart-btn"></div>
     <div class="fas fa-bars" id="Menú-btn"></div>
-  
-
-
-
 </div>
-
+  
+  <div class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </div>
+  
+  <div class="cart-items-container">
+    <div class="cart-item">
+       <span class="fas fa-times"></span>
+       <img src="IMG/cafe 1.jpg" alt="">
+       <div class="content">
+        <h3>cart item 01</h3>
+        <div class="price">$300</div>
+       </div>
+    </div>
+    <div class="cart-item">
+      <span class="fas fa-times"></span>
+      <img src="IMG/cafe 2.jpg" alt="">
+      <div class="content">
+       <h3>cart item 02</h3>
+       <div class="price">$300</div>
+      </div>
+   </div>
+   <div class="cart-item">
+    <span class="fas fa-times"></span>
+    <img src="IMG/cafe 3.jpg" alt="">
+    <div class="content">
+     <h3>cart item 03</h3>
+     <div class="price">$300</div>
+    </div>
+ </div>
+   <a href="#" class="btn">checkout now</a>
+  </div>
 
     </header>
 
      <!--header sections ends-->
+  
+     <!--Inicio section stars-->
+
+     <section class="Inicio" id="Inicio">
+
+      <div class="content">
+          <h3>Fresh coffee in the morning</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci laboriosam ex excepturi consequuntur temporibus.</p>
+          <a href="#" class="btn">get yours now</a>
+      </div>
+     </section>
+
+     <!--Inicio section ends-->
 
 
 
+      <!--Nosotros section stars-->
+      
+      <section class="Nosotros" id="Nosotros">
+
+        <h1 class="heading"><span>Nosotros</span></h1>
+        
+        <div class="box-container">
+
+          <div class="box">
+            <h1> Misión</h1>
+          <h3>Nuestra misión es ofrecer una experiencia única, combinando ingredientes frescos y locales con un servicio excepcional, para crear momentos memorables para nuestros clientes.</h3>
+          </div>
+
+          <div class="box">
+            <h1> Visión</h1>
+            <h3>Ser reconocidos como el restaurante líder en sostenibilidad y calidad gastronómica en nuestra región, creando un impacto positivo.</h3>
+            </div>
+
+            <div class="box">
+              <h1> Valores</h1>
+              <h3>Calidad
+                Sostenibilidad
+               Innovación
+                Responsabilidad</h3>
+              </div>
+        </div>
+      </section>
+
+
+
+     <!--Nosotros section ends-->
+
+
+    <!-- Menú section stars-->
+
+    <section class="Menú" id="Menú">
+      <h1 class="heading">Nuestro<span>Menú</span></h1>
+        
+      <div class="box-container">
+
+        <div class="box">
+          <img src="IMG/desayuno.jpg" alt="">
+          <h1> Desayuno</h1>
+          <a href="#" class="btn">Ver menú</a>
+
+          <div class="box">
+            <img src="IMG/comida.jpg" alt="">
+            <h1> comida</h1>
+            <a href="#" class="btn">Ver menú</a>
+
+            <div class="box">
+              <img src="IMG/Bebidas.jpg" alt="">
+              <h1> Bebidas</h1>
+              <a href="#" class="btn">Ver menú</a>
+        </div>
+
+    </section>
+
+
+    
+
+   <!-- Menú section ends-->
+
+   
 
 
 
@@ -54,7 +160,7 @@
 
 
 <!--custom js file link-->
-<link rel="stylesheet" href="INDEX.js">
+<link rel="stylesheet" href="JavaScript/index.js">
 
 </body>
 </html>
